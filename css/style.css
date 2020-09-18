@@ -5,9 +5,10 @@
  Author: BootstrapTaste
  Author URI: http://bootstraptaste.com
  */
- 
+ html{
+	scroll-behavior: smooth;
+}
 /* CSS Document */
-
 /* Float Elements 
 ---------------------------------*/
 .fl-lt {float:left;}
@@ -79,18 +80,22 @@ h3{
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 	font-weight:400;
+	text-align: justify;
 }
 h6{
 	font-size:16px;
 	color:#888888;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
-	text-align:center;
 	margin:0 0 60px 0;
+	max-width:500px;
+	line-height:25px;
+	text-align: justify;
 }
 p{
 	line-height:24px;
 	margin:0;
+	text-align: justify;
 }
 
 /* Header Styles
@@ -98,8 +103,12 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	background:url(../img/welcome.gif) left top repeat;
+	padding:210px 0;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+
 }
 .logo{
 	width:130px;
@@ -220,7 +229,6 @@ color: #fff;
 
 /* Services
 ---------------------------------*/
-
 .service-list{
 	padding:0 0 0 0;
 	font-size:14px;
@@ -280,15 +288,6 @@ color: #fff;
 	font-style:normal;
 }
 .featured-box-col2{ overflow:hidden;}
-.featured-box.magic{
-	background:url(../img/magic.png) left top no-repeat;
-}
-.featured-box.packaged{
-	background:url(../img/packaged.png) left top no-repeat;
-}
-.featured-box.seo{
-	background:url(../img/seo.png) left top no-repeat;
-}
 .Learn-More{
 	display:inline-block;
 	padding:0 5px 0 0;
@@ -838,4 +837,14 @@ border: 2px solid #fff;
 	-webkit-animation-delay: 1.2s; 
 }
 
-
+.dialogue_box{
+	position: absolute;
+	margin:28px 115px;
+	height:368px;
+	width:582px;
+	border:2px solid black;
+}
+.dialogue_box img{
+	height:364px;
+	width:582px;
+}
