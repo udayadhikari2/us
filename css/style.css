@@ -103,7 +103,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/welcome.gif) left top repeat;
+	background:url(../img/new.gif) left top repeat;
 	padding:210px 0;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -185,10 +185,10 @@ color: #fff;
 ---------------------------------*/
 .main-nav-outer{
 	padding:0px;
-	border-bottom:1px solid #dddddd;
+	/* border-bottom:1px solid #dddddd; */
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background:#fff;
+	background:rgb(73, 176, 202);
 }
 .main-nav{
 	text-align:center;
@@ -199,6 +199,7 @@ color: #fff;
 .main-nav li{
 	display:inline;
 	margin:0 1px;
+	padding:10px;
 }
 .main-nav li a{
 	display:inline-block;
@@ -211,6 +212,7 @@ color: #fff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
+	
 }
 
 .main-nav li a:hover{ 
@@ -220,11 +222,13 @@ color: #fff;
 
 .small-logo{ 
 	padding:0 32px;
+	
+}
+.small-logo li{
+	background-color:none;
+	padding: none;
 }
 
-.main-section{
-	padding:90px 0 110px;
-}
 
 
 /* Services
@@ -847,4 +851,7 @@ border: 2px solid #fff;
 .dialogue_box img{
 	height:364px;
 	width:582px;
+}
+.iphone img{
+	margin:200px 0px;
 }
